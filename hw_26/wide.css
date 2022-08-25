@@ -1,0 +1,59 @@
+body{
+    background-color:slateblue;
+    color:maroon;
+    font-family:fantasy
+}
+.mainHr{
+    text-align: center;
+}
+.mainBox{
+    border:solid blue;
+    height:70vh;
+    width:100%;
+    display:flex;
+
+}.mainft{
+    display:flex;
+    padding:15px;
+}
+.movies{
+    width:250px;
+    height:100%;
+    border:solid white;
+}
+
+#bad{
+    display: none;
+}
+#death{
+    display: block;
+    width: 100%;
+}
+#side{
+    display: none;
+}
+.tgl{
+    border-radius: 5em;
+    border:solid blue 5px;
+    margin: 5px;
+    height: 10vh;
+    background-color:cyan;
+    color:crimson;
+    width: 50vw;
+    font-size: 50px;
+}
+#last{
+    display: block;
+}
+#next{
+    display:none;
+}
+.spbad{
+    display: none;
+}
+.grem{
+    display: none;
+}
+.bday{
+    display:block;
+}
